@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemonenergy",
+  "version": "${version}",
+  "name": "CobblemonEnergy",
+  "description": "",
+  "authors": [
+    "ProgramerGamer"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/cobblemonenergy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.programergamer.cobblemonenergy.fabric.CobblemonenergyFabric"
+    ],
+    "client": [
+      "com.programergamer.cobblemonenergy.fabric.client.CobblemonenergyFabricClient"
+    ]
+  },
+  "mixins": [
+    "cobblemonenergy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

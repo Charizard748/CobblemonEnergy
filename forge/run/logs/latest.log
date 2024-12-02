@@ -1,0 +1,202 @@
+[21:10:53] [main/INFO] (Launcher) ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.20.1-5, --assetsDir, C:\Users\jboon\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 47.3.12, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, -mixin.config, cobblemonenergy.mixins.json, --mixin.config, cobblemonenergy.mixins.json]
+[21:10:53] [main/INFO] (Launcher) ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[21:10:53] [main/INFO] (ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
+[21:10:54] [main/INFO] (EARLYDISPLAY) Trying GL version 4.6
+[21:10:55] [main/INFO] (EARLYDISPLAY) Requested GL version 4.6 got version 4.6
+[21:10:55] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/jboon/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.11/dd886ad7af30604cbd9aa0f1eb9fb95b079013ca/mixin-patched-0.8.5.11.jar%23127!/ Service=ModLauncher Env=CLIENT
+[21:10:55] [pool-5-thread-1/INFO] (EARLYDISPLAY) GL info: NVIDIA GeForce RTX 2070/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.14, NVIDIA Corporation
+[21:10:55] [main/WARN] (ModFileParser) Mod file C:\Users\jboon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.12\f6b9f7f45e33548b47f78d9f54c7b4eb1e94e9bd\javafmllanguage-1.20.1-47.3.12.jar is missing mods.toml file
+[21:10:55] [main/WARN] (ModFileParser) Mod file C:\Users\jboon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.12\81de74e1180787af25604b6ecb3728fc485bd3c7\lowcodelanguage-1.20.1-47.3.12.jar is missing mods.toml file
+[21:10:55] [main/WARN] (ModFileParser) Mod file C:\Users\jboon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.12\1ff4ed058e0774b82d8da352d9e051e6d2a154eb\mclanguage-1.20.1-47.3.12.jar is missing mods.toml file
+[21:10:55] [main/WARN] (ModFileParser) Mod file C:\Users\jboon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.12\9a4d9f99e106aa2358cdbe6777921855d353371\fmlcore-1.20.1-47.3.12.jar is missing mods.toml file
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.20.1-47.3.12.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5125159e
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file lowcodelanguage-1.20.1-47.3.12.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5125159e
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.20.1-47.3.12.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5125159e
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.20.1-47.3.12.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5125159e
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5125159e
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file main of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5125159e
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5125159e
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file forge-1.5.2+1.20.1.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@29abba49
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file 8551023408962017782.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@29abba49
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file kotlinforforge-4.11.0-all.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@29abba49
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file forge-1.5.2+1.20.1.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@29abba49
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file 8551023408962017782.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@29abba49
+[21:10:55] [main/INFO] (JarInJarDependencyLocator) Found 3 dependencies adding them to mods collection
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file kffmod-4.11.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@46c9a298
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file kfflib-4.11.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@46c9a298
+[21:10:55] [main/INFO] (ModDiscoverer) Found mod file kfflang-4.11.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@46c9a298
+[21:10:57] [main/INFO] (mixin) Compatibility level set to JAVA_17
+[21:10:57] [main/INFO] (LaunchServiceHandler) Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\jboon\.gradle\caches\fabric-loom\assets, --assetIndex, 1.20.1-5]
+[21:10:57] [main/INFO] (mixin) Remapping refMap cobblemon-forge-refmap.json using RemapperChain (Architectury Patched)
+[21:10:57] [main/INFO] (mixin) Remapping refMap cobblemon-common-refmap.json using RemapperChain (Architectury Patched)
+[21:10:57] [main/INFO] (unprotect) Found 7423 Minecraft classes
+[21:10:58] [main/WARN] (mixin) Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel.adorn.block.variant.BlockVariantSets)
+[21:10:58] [main/WARN] (mixin) @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker
+[01Dec2024 21:11:03.020] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 173 milliseconds
+[01Dec2024 21:11:04.095] [pool-7-thread-1/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+java.lang.IllegalStateException: Field climateSettings is not private and an instance field
+	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:889) ~[coremods-5.2.1.jar:?]
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$23$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.4.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.4.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.4.jar:?]
+	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.4.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:37) ~[coremods-5.2.1.jar:5.2.1]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:22) ~[coremods-5.2.1.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:14) ~[coremods-5.2.1.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:60) ~[coremods-5.2.1.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.world.level.biome.FixedBiomeSource.<clinit>(FixedBiomeSource.java:17) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.world.level.biome.BiomeSources.bootstrap(BiomeSources.java:8) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.method_47485(BuiltInRegistries.java:448) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.method_47482(BuiltInRegistries.java:462) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at net.minecraft.core.registries.BuiltInRegistries.createContents(BuiltInRegistries.java:461) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.bootStrap(BuiltInRegistries.java:455) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:55) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.main.Main.lambda$main$0(Main.java:151) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[01Dec2024 21:11:04.545] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jboon/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.3.12-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12/forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/assets/.mcassetsroot' uses unexpected schema
+[01Dec2024 21:11:04.545] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jboon/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.3.12-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12/forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/data/.mcassetsroot' uses unexpected schema
+[01Dec2024 21:11:04.559] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Dec2024 21:11:04.562] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[01Dec2024 21:11:04.639] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[01Dec2024 21:11:04.947] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.12, for MC 1.20.1 with MCP 20230612.114412
+[01Dec2024 21:11:04.951] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.12 Initialized
+[01Dec2024 21:11:05.131] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[01Dec2024 21:11:05.314] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[01Dec2024 21:11:05.324] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Launching Cobblemon 1.5.2 
+[01Dec2024 21:11:05.326] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
+[01Dec2024 21:11:05.514] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
+[01Dec2024 21:11:05.517] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
+[01Dec2024 21:11:05.521] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: cobblemonenergy, class com.programergamer.cobblemonenergy.forge.CobblemonenergyForge
+java.util.NoSuchElementException: Collection is empty.
+	at kotlin.collections.CollectionsKt___CollectionsKt.random(_Collections.kt:570) ~[kotlinforforge-4.11.0-all.jar%23211!/:?]
+	at com.cobblemon.mod.common.api.pokemon.PokemonSpecies.random(PokemonSpecies.java:172) ~[forge-1.5.2+1.20.1.jar%23206!/:?]
+	at com.cobblemon.mod.common.pokemon.Pokemon.<init>(Pokemon.java:116) ~[forge-1.5.2+1.20.1.jar%23206!/:?]
+	at com.cobblemon.mod.common.api.pokemon.PokemonProperties.create(PokemonProperties.java:471) ~[forge-1.5.2+1.20.1.jar%23206!/:?]
+	at com.programergamer.cobblemonenergy.forge.CobblemonenergyForge.<init>(CobblemonenergyForge.java:24) ~[%23204!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.12.jar%23200!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.12.jar%23203!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01Dec2024 21:11:05.525] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
+[01Dec2024 21:11:05.527] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
+[01Dec2024 21:11:05.655] [Render thread/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[01Dec2024 21:11:06.124] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[01Dec2024 21:11:06.227] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[01Dec2024 21:11:06.228] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Item to a broken mod state
+[01Dec2024 21:11:06.351] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+[01Dec2024 21:11:06.404] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[01Dec2024 21:11:06.450] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+[01Dec2024 21:11:06.451] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[01Dec2024 21:11:06.451] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[01Dec2024 21:11:06.453] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterTextureAtlasSpriteLoadersEvent to a broken mod state
+[01Dec2024 21:11:06.454] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[01Dec2024 21:11:06.454] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[01Dec2024 21:11:06.455] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[01Dec2024 21:11:06.456] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterRecipeBookCategoriesEvent to a broken mod state
+[01Dec2024 21:11:06.463] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterGuiOverlaysEvent to a broken mod state
+[01Dec2024 21:11:06.467] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[01Dec2024 21:11:06.468] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[01Dec2024 21:11:06.468] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[01Dec2024 21:11:06.470] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[01Dec2024 21:11:06.477] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[01Dec2024 21:11:06.543] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla
+[01Dec2024 21:11:06.581] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterGeometryLoaders to a broken mod state
+[01Dec2024 21:11:06.670] [Worker-Main-12/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[01Dec2024 21:11:07.315] [Worker-Main-6/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterAdditional to a broken mod state
+[01Dec2024 21:11:07.427] [Worker-Main-6/ERROR] [net.minecraft.client.resources.model.ModelBakery/]: Error loading a Cobblemon BakedModel:
+java.io.FileNotFoundException: cobblemon:models/block/restoration_tank_fluid_bubbling.json
+	at net.minecraft.client.resources.model.ModelBakery.loadBlockModel(ModelBakery.java:417) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.mdc7ce5d$lambda$init$0$0(ModelBakery.java:556) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at net.minecraft.client.resources.model.ModelBakery.handler$zbc000$init(ModelBakery.java:554) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:167) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelManager.method_45884(ModelManager.java:83) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01Dec2024 21:11:07.930] [Render thread/ERROR] [net.minecraft.client.Minecraft/FATAL]: Reported exception thrown!
+net.minecraft.ReportedException: Rendering overlay
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:961) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23111!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23111!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23111!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23111!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23111!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23111!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23111!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23197!/:?]
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:220) ~[?:?]
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: cobblemon:models/block/restoration_tank_fluid_bubbling.json
+	at net.minecraft.client.resources.model.ModelBakery.mdc7ce5d$lambda$init$0$0(ModelBakery.java:560) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at net.minecraft.client.resources.model.ModelBakery.handler$zbc000$init(ModelBakery.java:554) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:167) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelManager.method_45884(ModelManager.java:83) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.FileNotFoundException: cobblemon:models/block/restoration_tank_fluid_bubbling.json
+	at net.minecraft.client.resources.model.ModelBakery.loadBlockModel(ModelBakery.java:417) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.mdc7ce5d$lambda$init$0$0(ModelBakery.java:556) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at net.minecraft.client.resources.model.ModelBakery.handler$zbc000$init(ModelBakery.java:554) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:167) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at net.minecraft.client.resources.model.ModelManager.method_45884(ModelManager.java:83) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01Dec2024 21:11:07.954] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 3df2af5c-41eb-4de5-a3c1-2f356fa894ed
+[01Dec2024 21:11:07.958] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 1d7d1b54-6196-4b31-a5de-ff703c7794d2

@@ -1,0 +1,164 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2024-12-01 19:45:47
+Description: Rendering overlay
+
+java.lang.RuntimeException: java.io.FileNotFoundException: cobblemon:models/block/restoration_tank_fluid_bubbling.json
+	at net.minecraft.client.resources.model.ModelBakery.mdc1efc6$lambda$init$0$0(ModelBakery.java:560) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.cobblemon-common.json:ModelLoaderMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {re:computing_frames,re:mixin}
+	at net.minecraft.client.resources.model.ModelBakery.handler$zbc000$init(ModelBakery.java:554) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.cobblemon-common.json:ModelLoaderMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.resources.model.ModelBakery.<init>(ModelBakery.java:167) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.cobblemon-common.json:ModelLoaderMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.resources.model.ModelManager.method_45884(ModelManager.java:83) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+Caused by: java.io.FileNotFoundException: cobblemon:models/block/restoration_tank_fluid_bubbling.json
+	at net.minecraft.client.resources.model.ModelBakery.loadBlockModel(ModelBakery.java:417) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.cobblemon-common.json:ModelLoaderMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.resources.model.ModelBakery.mdc1efc6$lambda$init$0$0(ModelBakery.java:556) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.cobblemon-common.json:ModelLoaderMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	... 12 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mod: 
+	Cobblemon (cobblemon), Version: 1.5.2+1.20.1
+		Issue tracker URL: https://gitlab.com/cable-mc/cobblemon/-/issues
+		Mixin class: com.cobblemon.mod.common.mixin.ModelLoaderMixin
+		Target: net.minecraft.client.resources.model.ModelBakery
+		at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.resources.model.ModelBakery.mdc1efc6$lambda$init$0$0(ModelBakery.java:560)
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:957) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.cobblemon-common.json:GameRendererMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraftforge.client.loading.ForgeLoadingOverlay
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:957) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.cobblemon-common.json:GameRendererMixin,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40545-v2-forge-1.20.1-47.3.12.jar%23199!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.3.12.jar%23107!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%23111!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[?:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar%23197!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:220) ~[?:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: No
+	Packs: vanilla
+
+-- Cobblemon --
+Details:
+	Version: 1.5.2
+	Is Snapshot: false
+	Git Commit: df8f078 (https://gitlab.com/cable-mc/cobblemon/-/commit/df8f078d13702ab9a000438910b822ceffbb2248)
+	Branch: HEAD
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.13, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 2136347648 bytes (2037 MiB) / 3468689408 bytes (3308 MiB) up to 8568963072 bytes (8172 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 12
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 2070
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f02
+	Graphics card #0 versionInfo: DriverVersion=32.0.15.6614
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 2.40
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 2.40
+	Memory slot #3 type: DDR4
+	Virtual memory max (MB): 64682.16
+	Virtual memory used (MB): 56121.94
+	Swap memory total (MB): 32000.69
+	Swap memory used (MB): 1559.99
+	JVM Flags: 0 total; 
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 2070/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.14, NVIDIA Corporation
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: en_us
+	CPU: 16x Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-patched-0.8.5.11.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.12.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.12.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.12.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-1.2.0.jar unprotect PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.12.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.12.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar ArchitecturyMixinRemapperInjector TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+		kotlinforforge@4.11.0
+		lowcodefml@null
+	Mod List: 
+		forge-1.20.1-47.3.12-minecraft-merged-1.20.1-loom.|Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+		4511669016327568363.jar                           |generated_7cc06f3             |generated_7cc06f3             |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		main                                              |CobblemonEnergy               |cobblemonenergy               |1.0-SNAPSHOT        |ERROR     |Manifest: NOSIGNATURE
+		kffmod-4.11.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.11.0              |COMMON_SET|Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.3.12             |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.5.2+1.20.1.jar                            |Cobblemon                     |cobblemon                     |1.5.2+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 5b5d01e5-5c16-465a-b5ae-d23e565972ee
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.12
